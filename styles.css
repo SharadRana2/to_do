@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+:root {
+  --bg-dark: #554994;
+  --bg-box: #293462;
+  --bg-light: #a66cff;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: var(--bg-dark);
+}
+ul li {
+  list-style: none;
+}
+.cover {
+  height: 100%;
+  width: 100%;
+}
+.top-content {
+  margin: 0 auto;
+}
+.top-heading {
+  color: #fff;
+  font-size: 5rem;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+.bg-dark-box {
+  width: 490px;
+  background-color: var(--bg-box);
+  border: none;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 2rem;
+}
+.main-list {
+  margin: o auto 2rem auto;
+}
+.list-items {
+  background-color: var(--bg-light);
+  border-radius: 3px;
+  max-width: 490px;
+  padding: 1rem;
+  margin: 0px auto 1px auto;
+  color: rgba(255, 255, 255, 0.7);
+}
+.list-items span {
+  font-size: 1.5rem;
+}
+.add-new {
+  display: block;
+  color: #fff;
+  margin: 2rem auto;
+}
+.add-text {
+  display: block;
+  margin: 1rem auto;
+}
+.filter {
+  display: none;
+}
+@media (max-width: 420px) {
+  .cover {
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-dark-box {
+    width: 250px;
+  }
+  .list-items {
+    max-width: 280px;
+  }
+}
